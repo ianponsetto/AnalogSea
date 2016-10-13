@@ -1,0 +1,45 @@
+body {
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container {
+    border: 1px solid red;
+    padding: 50px 30px;
+}
+
+.container .signup-copy {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 100px;
+    color: black;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+}
+
+.signup-form form input {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.signup-form .email-form,
+.signup-form .password-form {
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+.signup-form .signup-btn {
+    display: block;
+    width: 100%;
+    border: 1px solid blue;
+    padding: 10px 20px;
+}
