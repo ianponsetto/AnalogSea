@@ -1,14 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after,
+{
+    box-sizing: inherit;
+}
+
 body {
-    background-color: lightcyan;
+    background-color: deepskyblue;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: 100vh;
 }
 
 .container {
-    border: 1px solid red;
-    padding: 50px 30px;
+    background-color: aliceblue;
+    padding: 25px 25px;
 }
 
 .container .signup-copy {
@@ -25,15 +36,15 @@ form label {
 }
 
 .signup-form form input {
-    border: 1px solid black;
-    width: 100%;
-    padding: 5px;
+    border: 5px solid black;
+    width: 90%;
+    padding: 10px;
     margin-top: 10px;
+    border-width: 0;
 }
 
 .signup-form .email-form,
 .signup-form .password-form {
-    border: 1px solid red;
     margin-bottom: 10px;
 }
 
@@ -42,4 +53,13 @@ form label {
     width: 100%;
     border: 1px solid blue;
     padding: 10px 20px;
+    background-color: limegreen;
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-form .signup-pass {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 12px;
 }
